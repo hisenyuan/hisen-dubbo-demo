@@ -12,7 +12,6 @@ import java.util.List;
 
 /**
  * Created by hisen on 17-4-24.
- * 必须使用阿里的service注解
  */
 @Service
 public class BookServiceImpl implements BookService {
