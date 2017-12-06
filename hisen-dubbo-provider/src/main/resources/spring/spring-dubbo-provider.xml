@@ -7,7 +7,6 @@
     http://code.alibabatech.com/schema/dubbo
     http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
-    <import resource="spring-dubbo-config.xml" />
     <dubbo:service interface="com.hisen.service.BookService" ref="bookService"  timeout="10000"/>
     <!-- 和本地bean一样实现服务 -->
     <bean id="bookService" class="com.hisen.service.impl.BookServiceImpl" />
