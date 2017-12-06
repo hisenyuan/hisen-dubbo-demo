@@ -31,7 +31,7 @@ spring + springMVC + mybatis + dubbo + zookeeper
 |   |   |   |   `-- com
 |   |   |   |       `-- hisen
 |   |   |   |           `-- entity
-|   |   |   |               `-- Book.java #提供公共的实体类
+|   |   |   |               `-- Book.java ### 提供公共的实体类
 |   |   |   `-- resources
 |   |   `-- test
 |   |       `-- java
@@ -54,8 +54,8 @@ spring + springMVC + mybatis + dubbo + zookeeper
 |   |       |   `-- spring
 |   |       |       |-- applicationContext.xml
 |   |       |       |-- spring-dao.xml
-|   |       |       |-- spring-dubbo-config.xml #dubbo配置文件
-|   |       |       |-- spring-dubbo-consumer.xml #dubbo消费者配置文件
+|   |       |       |-- spring-dubbo-config.xml ### dubbo配置文件
+|   |       |       |-- spring-dubbo-consumer.xml ### dubbo消费者配置文件
 |   |       |       |-- spring-service.xml
 |   |       |       `-- spring-web.xml
 |   |       `-- webapp
@@ -77,7 +77,7 @@ spring + springMVC + mybatis + dubbo + zookeeper
 |   |       |           |   `-- BookDao.java
 |   |       |           `-- service
 |   |       |               `-- impl
-|   |       |                   |-- App.java # 非必须，目前可以直接跟随tomcat启动。如果要用此方式，注意引入dubbo配置文件
+|   |       |                   |-- App.java ### 非必须，目前可以直接跟随tomcat启动。如果要用此方式，注意引入dubbo配置文件
 |   |       |                   `-- BookServiceImpl.java
 |   |       |-- resources
 |   |       |   |-- jdbc.properties
@@ -88,8 +88,8 @@ spring + springMVC + mybatis + dubbo + zookeeper
 |   |       |   `-- spring
 |   |       |       |-- applicationContext.xml
 |   |       |       |-- spring-dao.xml
-|   |       |       |-- spring-dubbo-config.xml #dubbo配置文件
-|   |       |       |-- spring-dubbo-provider.xml #dubbo提供者配置文件，service多的话可以分开配置
+|   |       |       |-- spring-dubbo-config.xml ### dubbo配置文件
+|   |       |       |-- spring-dubbo-provider.xml ### dubbo提供者配置文件，service多的话可以分开配置
 |   |       |       |-- spring-service.xml
 |   |       |       `-- spring-web.xml
 |   |       `-- webapp
@@ -105,7 +105,7 @@ spring + springMVC + mybatis + dubbo + zookeeper
 |   |   |   |   `-- com
 |   |   |   |       `-- hisen
 |   |   |   |           `-- service
-|   |   |   |               `-- BookService.java # 提供公共的接口
+|   |   |   |               `-- BookService.java ### 提供公共的接口
 |   |   |   `-- resources
 |   |   `-- test
 |   |       `-- java
