@@ -1,7 +1,7 @@
 # hisen-dubbo-demo
 spring + springMVC + mybatis + dubbo + zookeeper
 ## 拆分方式
-目前是按照原来的ssm框架进行的
+目前是按照原来的SSM_BookSystem_V0进行的(详情：<a href="https://github.com/hisenyuan/SSM_BookSystem/tree/master/BookSystem_V0">点击查看:SSM_BookSystem_V0</a>)
 ## 陷阱
 ### 关于启动方式
 1. 通过一个java类启动
