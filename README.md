@@ -1,5 +1,11 @@
 # hisen-dubbo-demo
 spring + springMVC + mybatis + dubbo + zookeeper
+## 运行方法
+1. clone本项目
+2. 创建一个库和表（详情见下方SSM_BookSystem_V0的说明文件，页面搜索table即可）
+3. 启动zookeeper（项目配置为：127.0.0.1：2181）
+4. 测试消费者是否可以成功执行
+5. 如果想看dubbo-admin的页面，在dubbo的github仓库弄一份到本地，打包发布到tomcat即可
 ## 拆分方式
 目前是按照原来的SSM_BookSystem_V0进行的(详情：<a href="https://github.com/hisenyuan/SSM_BookSystem/tree/master/BookSystem_V0">点击查看:SSM_BookSystem_V0</a>)
 ## 陷阱
